@@ -1,0 +1,21 @@
+# SBT build output
+target/
+project/target/
+project/project/
+
+# Metals / Bloop / IntelliJ / VS Code
+.metals/
+.bloop/
+.idea/
+.vscode/
+
+# JVM + logs
+*.class
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+**/Coursier/cache/
